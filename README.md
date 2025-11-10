@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="300" src="./assets/banner.png">
+    <img width="200" src="./assets/banner.png">
 </p>
 
 
@@ -91,4 +91,5 @@ E ai montei aquela parte do img:
 ---
 
 ⌨️ com 💜 por [Edmundo Batista](https://github.com/eddgh)
+
 
