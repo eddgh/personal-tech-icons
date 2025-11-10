@@ -1,16 +1,18 @@
 <p align="center">
-    <img width="100" src="./assets/banner.png">
+    <img width="300" src="./assets/banner.png">
 </p>
 
 
 <p align="center">
 
--------
+
 
  
- # personal-tech-icons
+ # Ícones Personalizados
 Pasta com ícones pessoais visualizáveis no Github para compor readme.md ou qualquer outro uso.
 Nasceu da necessidade de colocar um ícone do Neo4j entre as minhas tecnologias no Readme do Github, e o icone disponível na DevIcons era bem ruim então desenvolvi tudo praticamente do zero.
+
+<br>
 
 ## Como foi feito:
 
@@ -41,12 +43,18 @@ E ai montei aquela parte do img:
 
 <br>
 
-<table>
+<table style="background-color:green;">
   <tr>
     <td><strong style="font-size: 1.2em;">Resultado</strong></td>
     <td><img src="https://cdn.jsdelivr.net/gh/eddgh/personal-tech-icons/icons/svg/neo4j/neo4j-branco-azul.svg" width="70px" /></td>
   </tr>
 </table>
+
+## Outras versões:
+
+<img src="https://cdn.jsdelivr.net/gh/eddgh/personal-tech-icons/icons/svg/neo4j/neo4j-azul.svg" width="70px" />
+<img src="https://cdn.jsdelivr.net/gh/eddgh/personal-tech-icons/icons/svg/neo4j/neo4j-branco.svg" width="70px" />
+<img src="https://cdn.jsdelivr.net/gh/eddgh/personal-tech-icons/icons/svg/neo4j/neo4j-azul-branco.svg" width="70px" />
 
 <br>
 
@@ -83,3 +91,4 @@ E ai montei aquela parte do img:
 ---
 
 ⌨️ com 💜 por [Edmundo Batista](https://github.com/eddgh)
+
