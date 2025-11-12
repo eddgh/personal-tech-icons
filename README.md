@@ -5,64 +5,73 @@
 
 <p align="center">
 
-
-
- 
- # Ícones Personalizados
-Pasta com ícones pessoais visualizáveis no Github para compor readme.md ou qualquer outro uso.
-Nasceu da necessidade de colocar um ícone do Neo4j entre as minhas tecnologias no Readme do Github, e o icone disponível na DevIcons era bem ruim então desenvolvi tudo praticamente do zero.
+# 🗃️ Ícones Personalizados
 
 <br>
+<p></p>
 
-## Como foi feito:
+## 📦 Projeto: Personal Tech Icons
 
-- Acessei o logo pelo url do devicons no navegador Edge (https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neo4j/neo4j-original-wordmark.svg).
-- Salvei a página (o que tecnicamente salva o svg).
-- Editei no vscode, porque os editores online que se prezam são pagos kkkkk.
-- No vscode da pra abrir como imagem mas ai voce pode clicar ali no canto superior direito onde faz o split das janelas tem um botão "reopen as a source text", por ser um svg. 
-- Dai vc edita as partes onde tem **"fill="** e no início desse tipo específico que tá mapeado em Path, eu editei a viewbox de "viewBox="0 0 128 128"
-  pra viewBox="0 40 128 48" pra centralizar verticalmente e cortar o excesso de espaço acima e abaixo da imagem pra poder ficar perfeito no github, como as do devicon.
-- Criei várias versões.
-- Criei um repositório.
-- Adptei o link jsdlivr (https://cdn.jsdelivr.net/gh/eddgh/personal-tech-icons/icons/svg/neo4j/neo4j-branco-azul.svg) pro meu repositório.
+### 📝 Descrição
+Este repositório contém **ícones personalizados em SVG** para uso em perfis GitHub, especialmente em arquivos `README.md`. O projeto nasceu da necessidade de incluir um ícone do Neo4j com melhor qualidade visual do que os disponíveis no DevIcons.
 
-<br>
+---
 
-E ai montei aquela parte do img:
+### 📁 Estrutura do Repositório
 
-<br>
+```
+personal-tech-icons/
+├── assets/                  # Imagens auxiliares e banner
+├── icons/
+│   └── svg/
+│       └── neo4j/          # Ícones SVG personalizados do Neo4j
+└── README.md               # Documentação do projeto
+```
 
->&lt;img 
-    align="left"<br> 
-    alt="HTML"<br>
-    title="HTML"<br>
-    width="70px"<br>
-    style="padding-right: 10px;"<br>
-    src="https://cdn.jsdelivr.net/gh/eddgh/personal-tech-icons/icons/svg/neo4j/neo4j-branco-azul.svg"<br>
-    /&gt;
+---
 
-<br>
+### 🛠️ Tecnologias Utilizadas
 
-<table style="background-color:green;">
-  <tr>
-    <td><strong style="font-size: 1.2em;">Resultado</strong></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/eddgh/personal-tech-icons/icons/svg/neo4j/neo4j-branco-azul.svg" width="70px" /></td>
-  </tr>
-</table>
+- **SVG**: formato vetorial para os ícones
+- **Visual Studio Code**: editor usado para modificar os arquivos SVG
+- **GitHub Pages / CDN (jsDelivr)**: para servir os ícones diretamente via URL
 
-## Outras versões:
+---
 
-<img src="https://cdn.jsdelivr.net/gh/eddgh/personal-tech-icons/icons/svg/neo4j/neo4j-azul.svg" width="70px" />
-<img src="https://cdn.jsdelivr.net/gh/eddgh/personal-tech-icons/icons/svg/neo4j/neo4j-branco.svg" width="70px" />
-<img src="https://cdn.jsdelivr.net/gh/eddgh/personal-tech-icons/icons/svg/neo4j/neo4j-azul-branco.svg" width="70px" />
+### 🎨 Como os ícones foram criados
 
-<br>
+1. Acessei o ícone original do Neo4j via DevIcons:  
+   `https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neo4j/neo4j-original-wordmark.svg`
 
-## 🛠️ Tecnologias
+2. Salvei o SVG localmente e editei no VSCode:
+   - Ajustei o `viewBox` para centralizar verticalmente:  
+     `viewBox="0 0 128 128"` → `viewBox="0 40 128 48"`
+   - Modifiquei atributos `fill` para alterar cores.
+   - Criei múltiplas versões com diferentes estilos.
 
-- Vscode
-- Svg
+3. Publiquei os ícones no GitHub e adaptei os links para uso via jsDelivr:
+   - Exemplo:  
+     `https://cdn.jsdelivr.net/gh/eddgh/personal-tech-icons/icons/svg/neo4j/neo4j-branco-azul.svg`
 
+---
+
+### 📌 Exemplos de Uso
+
+```html
+<img align="left" alt="Neo4j" title="Neo4j" width="70px"
+     style="padding-right: 10px;"
+     src="https://cdn.jsdelivr.net/gh/eddgh/personal-tech-icons/icons/svg/neo4j/neo4j-branco-azul.svg" />
+```
+
+---
+
+### 📷 Visualizações
+
+| Ícone Principal | Outras Versões |
+|----------------|----------------|
+| ![Neo4j Azul e Branco](https://cdn.jsdelivr.net/gh/eddgh/personal-tech-icons/icons/svg/neo4j/neo4j-branco-azul.svg) | ![](https://cdn.jsdelivr.net/gh/eddgh/personal-tech-icons/icons/svg/neo4j/neo4j-branco.svg) ![](https://cdn.jsdelivr.net/gh/eddgh/personal-tech-icons/icons/svg/neo4j/neo4j-azul-branco.svg) ![](https://cdn.jsdelivr.net/gh/eddgh/personal-tech-icons/icons/svg/neo4j/neo4j-azul.svg)|
+
+---
 ## 👨‍💻 Autor
 
 <p>
@@ -91,5 +100,4 @@ E ai montei aquela parte do img:
 ---
 
 ⌨️ com 💜 por [Edmundo Batista](https://github.com/eddgh)
-
 
